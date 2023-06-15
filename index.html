@@ -27,21 +27,20 @@
         <div class="header__content">
             <p>BAKE</p>
             <nav>
-                <ul>
-                    <li class="active"><a href="#">HOME<a>
-                    <li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SERVICE</a></li>
-                    <li><a href="#">GALLERY</a></li>
-                    <li><a href="#">CLIENTS</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                <ul id="mainnav">
+                    <li class="active"><a href="#">HOME</li>
+                    <li><a href="#carousel">ABOUT</a></li>
+                    <li><a href="#services">SERVICE</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#team">CLIENTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
 
-            </nav>
+            </nav>  
         </div>
     </header>
     <!-- CAROUSEL -->
-    <section class="carousel">
+    <section class="carousel"id="carousel">
         <div class="carousel__context">
             <h1> Best Bake Here</h1>
             <p> Donec at massa nec sem eleifend fermentum.</p>
@@ -49,7 +48,7 @@
         </div>
     </section>
     <!-- INTRO -->
-    <section class="intro">
+    <section class="intro" id="intro">
         <div class="intro__item intro__text">
             <div>
                 <h3>Tradition</h3>
@@ -115,7 +114,7 @@
         </div>
     </section>
     <!-- SERVICES -->
-    <section class="services">
+    <section class="services" id="services">
         <h2> OUT SERVICES</h2>
         <div class="services__content">
             <div class="services__item">
@@ -145,7 +144,7 @@
         </div>
     </section>
     <!--  GALLERy -->
-    <section class="gallery">
+    <section class="gallery" id="gallery">
         <H2>OUR GALLERY</H2>
         <div class="gallery__content">
             <figure class="gallery__item gallery__g1">
@@ -206,7 +205,7 @@
 
     </section>
     <!-- TEAM -->
-    <section class="team">
+    <section class="team" id="team">
         <h2>BAKE TEAM</h2>
         <div class="team__content">
             <div class="team__item">
@@ -224,9 +223,9 @@
                         <i class="fab fa-twitter"></i>
                         <i class="fab fa-google-plus-g"></i>
                     </div>
-                </div>
+                </div>  
             </div>
-            <div class="team__item">
+            <div class="team__item team__item2">
                 <img src="./img/t2.jpg" alt="team2">
                 <div class="team__title">
                     <h3>John Simon</h3>
@@ -341,13 +340,115 @@
         </div>
     </section> -->
     <!-- CONTACT -->
-    <section class="contact">
+    <section class="contact" id="contact">
+        <h2>CONTACT</h2>
+        <div class="contact__form">
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Last Name">
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Phone">
+                <textarea placeholder="Message" cols="30" rows="10"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <div class="contact__map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62696.60200169993!2d106.61003088213789!3d10.846652866021014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529bfb50ecf73%3A0x201f224e031bf3ce!2zQ2l0eWxhbmQgR8OyIFbhuqVw!5e0!3m2!1sen!2s!4v1686808001896!5m2!1sen!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact__icon">
+            <div class="contact__item">
+                <i class="fa fa-home"></i>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
 
+            </div>
+            <div class="contact__item">
+                <i class="fa fa-phone"></i>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="contact__item">
+                <i class="fa fa-envelope"></i>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+
+        </div>
     </section>
     <!-- FOOTER -->
     <footer>
-
+        <div class="footer__main">
+            <div class="footer__item">
+                <h3>About us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet beatae vel laboriosam expedita alias
+                    autem!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet beatae vel laboriosam expedita alias
+                    autem!</p>
+                <div class="footer__socials">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                </div>
+            </div>
+            <div class="footer__item">
+                <h3>Working Time</h3>
+                <div class="footer__time">
+                    <p>Monday</p>
+                    <p>9h30 - 18h30</p>
+                </div>
+                <div class="footer__time">
+                    <p>Tuesday</p>
+                    <p>9h30 - 18h30</p>
+                </div>
+                <div class="footer__time">
+                    <p>Wednesday</p>
+                    <p>9h30 - 18h30</p>
+                </div>
+                <div class="footer__time">
+                    <p>Thursday</p>
+                    <p>9h30 - 18h30</p>
+                </div>
+                <div class="footer__time">
+                    <p>Firday</p>
+                    <p>9h30 - 18h30</p>
+                </div>
+                <div class="footer__time">
+                    <p>Saturday</p>
+                    <p>9h30 - 18h30</p>
+                </div>
+                <div class="footer__time">
+                    <p>Sunday</p>
+                    <p>9h30 - 18h30</p>
+                </div>
+            </div>
+            <div class="footer__item">
+                <h3>Twiter Us</h3>
+                <p>ulreicies nec. pellengtesque eu. pretium quis</p>
+                <p>ulreicies nec. pellengtesque eu. pretium quis</p>
+                <p>ulreicies nec. pellengtesque eu. pretium quis</p>
+                <p>ulreicies nec. pellengtesque eu. pretium quis</p>
+            </div>
+            <div class="footer__item">
+                <h3>SUBSRCRIBE US</h3>
+                <form class="footer__sub">
+                    <input type="email" placeholder="name@eexample.com">
+                    <button button type="submit"> Send</button>
+                </form>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi hic nisi pariatur ad veniam ametcum  incidunt. Consectetur, enim id?</p>
+            </div>
+        </div>
+        </div>
+        <div class="footer__copyright">
+            <p> &copy; 2020 Lorem ipsum dolor sit almet. Desgin by <span style="color:#ff0e83" > CyberSoft</span> </p> 
+        </div>
     </footer>
+    <!-- BACK TO TOP  -->
+    <a href="#" class="backtotop cd-top text-replace js-cd-top">
+        <i class="fa fa-angle-up"></i>
+    </a>
     <!-- Thư viện hỗ trợ  -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"
         integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
@@ -359,6 +460,7 @@
     <!-- LIGHTBOX JS -->
     <script src="./js/lightbox.min.js"></script>
     <!-- owlcarousel
+
     <script src="./js/owl.carousel.min.js"></script>
     <script>
         $('.owl-carousel').owlCarousel({
@@ -371,7 +473,27 @@
             }
         })
     </script> -->
-
+    <!-- backtotopjs -->
+    <script src="./js/util.js"></script>
+    <script src="./js/main.js"></script>
+    <!-- NAV JS  -->
+    <script>
+        // the ul
+        var mainnav = document.getElementById("mainnav");
+        // the li
+        var li = document.getElementsByTagName("li");
+        // kiem tra the li 
+        for (var i = 0; i < listnav.length; i++);{
+            listnav[i].addEventListener("click",function(){
+                // tim the duoc gan class active
+                var current =document.querySelector("#mainnav .active");
+                // xoa class active dang duoc gan 
+                current.className = current.className.replace("active","");
+                // them class active voa the dang duoc click
+                this.className += "active";
+            });
+        }
+    </script>
 </body>
 
 </html>
